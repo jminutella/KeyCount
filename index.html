@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	 <link rel="stylesheet" type="text/css" href="css/style.css">
+	 <script src="js/script.js"></script>
+	 <title>Key Count and Palindrome Program</title>
+	</head>
+	
+	<body onload="load()">
+	
+    <div class="wrapContent">
+    
+      <h1>Key Count &amp; Palindrome Program</h1>
+		  
+		  <div class="keyCount">
+		  
+        <h2>Key Count</h2>
+    
+        <p>This text area is a key count. Each line in the textarea should be expected to contain a key, separated from a count by a colon character. The key may be any string not containing a colon. The count should be expected to be able to be parsed to an integer. 
+        </p>
+      
+        <p>If a key is a palindrome, the result will be displayed in a dark blue color.</p>
+      
+        <p>
+          Please enter data in this format: <br /><br />
+          John: 3 <br />
+          Jane: 1 <br />
+          John: 2 <br />
+          Jane: 5 <br />
+        </p>
+        
+		    <textarea id="textarea" class="textarea-input"></textarea>
+		
+		    <div class="button-bar">
+          <button class="button" type="button" onclick="sum()">Calculate</button>
+          <button class="button" type="button" onclick="clearResults()">Clear</button>
+		    </div>
+		  
+		  </div>
+	 
+      <div class="output">
+        <h2>Results</h2>
+     
+        <p id="output" class="resultContent">Press the Calculate button to add up the key count totals.</p>
+      </div>
+	 </div>	
+  
+	</body>
+
+</html>

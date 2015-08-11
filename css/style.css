@@ -1,0 +1,49 @@
+body {
+	background-color: #C2F0FF;
+	margin: 50px;
+	font: 14px Tahoma;
+}
+
+.wrapContent {
+	border-radius: 25px;
+  border: 2px solid #33CCFF;
+  padding: 10px;
+  display: inline-block;
+}
+
+.textarea-input {
+	height: 200px;
+	width: 400px;
+	min-width: 400px;
+	text-align: left;
+	font: 14px Tahoma;
+	border: 1px #33CCFF solid;
+	max-width: 400px;
+}
+
+.button-bar {
+	margin: 5px 5px 5px 0px;
+}
+
+.button {
+	font: 14px Tahoma;
+}
+
+.keyCount {
+	width: 40%;
+	float: left;
+	padding: 10px;
+}
+
+.output {
+	width: 40%;
+	float: right;
+	font: 14px Tahoma;
+	text-align: left;
+	margin-left: 10px;
+}
+
+.palindrome {
+	font-weight: bold;
+	color: #1F5994;
+}
